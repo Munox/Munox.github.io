@@ -1,0 +1,143 @@
+body {
+  font-family: 'Rubik',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+}
+
+.home-hero .image {
+  width: 200px;
+  height: 200px;
+}
+
+.nav-bar .logo {
+  height: 30px;
+  margin-right: 2px;
+}
+
+.content img {
+  border-radius: 10px;
+}
+
+.nav-dropdown-link-item .icon {
+  display: none;
+}
+
+:root {
+  --c-brand: #2280ff;
+  --c-brand-light: #7470ff;
+}
+
+.custom-block.tip {
+  border-color: var(--c-brand-light);
+}
+
+.DocSearch {
+  --docsearch-primary-color: var(--c-brand) !important;
+}
+
+#play-vite-audio {
+  padding: 0;
+  margin-left: 5px;
+  display: inline-flex;
+}
+
+#play-vite-audio img {
+  opacity: 0.8;
+}
+
+/* docs-cn specific */
+.cn-footnote {
+  margin-top: 20px;
+}
+
+.cn-footnote .title {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.docs-cn-github-release-tag {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 6px;
+  margin-left: 6px;
+  background: var(--c-brand);
+  color: white;
+  border-radius: 10px;
+}
+
+#wwads-container {
+  position: relative;
+  float: right;
+  z-index: 9;
+  margin: 0 0 16px 16px;
+}
+
+#wwads-container .wwads-text {
+  font-size: 12px;
+}
+
+.page .container .content {
+  clear: none !important;
+}
+
+@media (min-width: 1368px) {
+  #wwads-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    margin: 0;
+  }
+}
+
+
+.clip {
+  font-size: 3.5rem;
+}
+
+@media screen and (min-width:640px) {
+  .clip {
+    font-size: 5rem;
+  }
+}
+
+.nm-page h1 {
+  font-size: 4.5em;
+  font-weight: 500;
+  margin-bottom: 0;
+  line-height: auto;
+}
+
+/* .nm-p {
+  font-size: 1.6em;
+  font-weight: 300;
+  line-height: 1.4;
+  max-width: 28em;
+} */
+
+/* .VPContent{
+  flex-grow: 0 !important;
+} */
+
+::-webkit-scrollbar {
+  position: fixed;
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c2c2c2;
+  background-clip: padding-box;
+  min-height: 28px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #FFFFFF;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "TheDreams's Website",
+  "version": "1.0.0",
+  "description": "created by Chiziingiin",
+  "main": "index.js",
+  "author": "Zhangxinyue | Chiziingiin",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "serve": "vitepress serve",
+    "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "request": "^2.88.2",
+    "vuepress-sidebar-atuo": "^1.0.4"
+  }
+}
+
